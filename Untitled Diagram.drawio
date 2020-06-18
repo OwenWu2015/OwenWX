@@ -1,1 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2020-06-18T01:06:00.747Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="TdVikAu-VFhmD3_C1wyA" version="13.2.6" type="github"><diagram id="HxUwT_s7KAzyEIWDZ4rV" name="Page-1">jZPBboMwDIafhuMkINNojyvttsO6Ta2mnlNwSbpAopAUuqdfUgwUVZUmcbA/23Hi3wQkLdtXTRVbyxxEEId5G5BlEMfRYxwH/gvzc0eSBEGheY5JI9jyX0AYIrU8h3qSaKQUhqspzGRVQWYmjGotm2naQYppV0ULuAHbjIpbuuO5YR2dxcnI34AXrO8cPc27SEn7ZHxJzWgumytEVgFJtZSms8o2BeGH18+lq3u5Ex0upqEy/yn4jtd0fiztzIbhbplw9vGzecBTTlRYfHBAnj/3Rz/K7tbm3I/CPUB505binR9A8Mp5CwWal2BAu4hA/DWyRcO4ga2imS9t3JI4xkwpnBc50+lmqCvRgy8EVTXfX7qGjmjIrK75CTZQd+vhqbTGd0oH2T3Ex4A20N6dUjTM3i0tSHdPfXYpWEDmKBfu6wzdZhQ/CpGxK+FJDykuXDEcPWriDJSld0f5L7Grn4is/gA=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-18T01:41:28.933Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="VJeA5SaTdP9Fu9lCYKR4" version="13.2.6" type="github">
+  <diagram id="HxUwT_s7KAzyEIWDZ4rV" name="Page-1">
+    <mxGraphModel dx="1422" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MWADocAkwqnDfstgz9Fc-2" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;小区管理主服务&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="90" width="100" height="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="MWADocAkwqnDfstgz9Fc-2">
+          <mxGeometry x="50" y="150" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-4" value="APP" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="90" width="20" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-5" value="登录" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="MWADocAkwqnDfstgz9Fc-4">
+          <mxGeometry x="10" y="110" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-6" value="主页加载" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="MWADocAkwqnDfstgz9Fc-4">
+          <mxGeometry x="10" y="230" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-7" value="豆豆" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="90" width="100" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="MWADocAkwqnDfstgz9Fc-7">
+          <mxGeometry x="50" y="120" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-9" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;小区应用服务&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="90" width="100" height="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="MWADocAkwqnDfstgz9Fc-9">
+          <mxGeometry x="45" y="300" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MWADocAkwqnDfstgz9Fc-5" target="MWADocAkwqnDfstgz9Fc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-12" value="登录信息验证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWADocAkwqnDfstgz9Fc-11">
+          <mxGeometry x="0.2531" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="256" as="sourcePoint" />
+            <mxPoint x="669.5" y="256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-14" value="登录成功后，到主服务获取app主页信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWADocAkwqnDfstgz9Fc-13">
+          <mxGeometry x="-0.1793" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MWADocAkwqnDfstgz9Fc-17" target="MWADocAkwqnDfstgz9Fc-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-16" value="获取小区应用服务信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWADocAkwqnDfstgz9Fc-15">
+          <mxGeometry x="-0.0544" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-17" value="选择小区" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="140" y="415" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-18" value="小区首页加载" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="140" y="520" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.827;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MWADocAkwqnDfstgz9Fc-3" target="MWADocAkwqnDfstgz9Fc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-20" value="返回主页信息&lt;br&gt;当前用户可以选择的小区信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWADocAkwqnDfstgz9Fc-19">
+          <mxGeometry x="0.271" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MWADocAkwqnDfstgz9Fc-8" target="MWADocAkwqnDfstgz9Fc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-22" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;第三方应用&lt;/span&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="90" width="100" height="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.1;entryY=0.686;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="534.02" as="sourcePoint" />
+            <mxPoint x="151" y="534.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-24" value="返回小区菜单信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWADocAkwqnDfstgz9Fc-23">
+          <mxGeometry x="0.178" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWADocAkwqnDfstgz9Fc-25" value="小区首页加载" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="140" y="615" width="10" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
